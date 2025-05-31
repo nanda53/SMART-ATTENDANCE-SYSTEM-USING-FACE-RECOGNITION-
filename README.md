@@ -36,33 +36,30 @@ This project is a smart attendance system built using:
 ---
 ## 🚀 Firebase Setup Instructions
 
-1.Create a Firebase project:
 
+1.Create a Firebase project:
    -Go to Firebase Console → Add Project → Complete the setup.
 
-2.Enable the Realtime Database
 
+2.Enable the Realtime Database
    -In your project, go to Build > Realtime Database
- 
    -Click Create Database → Start in test mode (for quick testing).
- 
    -Note the database URL (like https://<your-database-name>.firebaseio.com/).
+
   
 3.Generate a Service Account
- 
-   -In Project Settings > Service Accounts, click Generate new private key.
-        
+   -In Project Settings > Service Accounts, click Generate new private key.  
    -Save it as smart-attendenc-firebase-adminsdk-n7bv3-f692ab38b6.json in your project directory.     
+
 
 4.Add Firebase Admin SDK in Python:
 
-   
-Install the package:
+   -Install the package:
 
     pip install firebase-admin
 
 
-Initialize Firebase in your script:
+   -Initialize Firebase in your script:
 
       import firebase_admin
       from firebase_admin import credentials, db
