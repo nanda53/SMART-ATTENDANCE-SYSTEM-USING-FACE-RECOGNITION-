@@ -38,9 +38,17 @@ This project is a smart attendance system built using:
 ## 🏗️ Firebase Realtime Database Structure
 
 students
+
 ├── 4jn21et001
+
 │ ├── face_encoding: [0.124, 0.542, ..., 0.989]
+
 │ ├── rfid: "291034509490"
+
+
 │ ├── attendance_count: 4
+
 │ ├── entry_time: "2025-05-31 09:00:00"
+
 │ └── exit_time: "2025-05-31 15:00:00"
+
