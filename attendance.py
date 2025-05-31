@@ -11,6 +11,7 @@ import time
 import RPi.GPIO as GPIO
 from mfrc522 import SimpleMFRC522
 
+
 # Initialize Firebase
 cred = credentials.Certificate("smart-attendenc-firebase-adminsdk-n7bv3-f692ab38b6.json")
 firebase_admin.initialize_app(cred, {
