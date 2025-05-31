@@ -34,7 +34,7 @@ This project is a smart attendance system built using:
    - If both match, logs entry/exit time and updates attendance count
 
 ---
-##🚀 Firebase Setup Instructions
+## 🚀 Firebase Setup Instructions
 
 1.Create a Firebase project:
 
